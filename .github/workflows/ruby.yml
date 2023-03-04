@@ -35,7 +35,7 @@ jobs:
       with:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
     - name: Webpack install
-      run: \
+      run: |
         bundle exec rails webpacker:install
         npx browserslist@latest --update-db
     - name: Webpacker Compile
