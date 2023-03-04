@@ -1,6 +1,7 @@
----
 name: petecheslock/rails-sample
 packages:
-- path: app/controllers
-- path: app/models
-- path: lib
+  - path: app/controllers
+  - path: app/models
+  - path: lib
+language: ruby
+appmap_dir: tmp/appmap
